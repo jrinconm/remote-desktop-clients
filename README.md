@@ -1,3 +1,10 @@
+# Modificado para compilar con AndroidX en windows 10.
+
+Instrucciones en:
+### [On Windows with Git Bash](#windowsgit)
+
+Cuando indica "Invalid Gradle JDK configuration found. Open Gradle Settings" elegimos Use Embedded JDK.
+
 # Intro
 
 This is the source code for bVNC, aRDP, aSPICE and Opaque, four remote desktop
@@ -76,7 +83,7 @@ Building from scratch and working in Android Studio.
 
     - If using an emulator, choose x86_64 as the architecture to avoid "has text relocations" errors loading gstreamer on Android.
 
-## On Windows with Git Bash
+## <a name="windowsgit"></a> On Windows with Git Bash
 
 These instructions are for Windows without WSL2 installed. For now, only pre-build dependencies are
 supported in this configuration.
