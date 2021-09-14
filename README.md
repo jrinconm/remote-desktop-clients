@@ -4,6 +4,7 @@ Instrucciones en:
 ### [On Windows with Git Bash](#windowsgit)
 
 Cuando indica "Invalid Gradle JDK configuration found. Open Gradle Settings" elegimos Use Embedded JDK.
+También tenemos que ejecutar migrate to AndroidX.
 
 # Intro
 
